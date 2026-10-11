@@ -1,0 +1,40 @@
+{
+    "name": "datafirefly/dfcodeinjector",
+    "description": "Free PrestaShop 8 & 9 module to inject custom CSS, JavaScript and HTML into the head, after the opening body tag or before the closing body tag without editing the theme. Page targeting, test mode, multistore.",
+    "type": "prestashop-module",
+    "version": "1.1.0",
+    "homepage": "https://www.datafirefly.com/en/product/header-footer-code-injector/",
+    "license": "proprietary",
+    "keywords": [
+        "prestashop",
+        "prestashop-module",
+        "prestashop-8",
+        "prestashop-9",
+        "code-injector",
+        "header",
+        "footer",
+        "custom-css",
+        "custom-javascript",
+        "google-tag-manager",
+        "tracking",
+        "pixel",
+        "datafirefly"
+    ],
+    "authors": [
+        {
+            "name": "DataFirefly",
+            "homepage": "https://www.datafirefly.com/en/"
+        }
+    ],
+    "support": {
+        "docs": "https://www.datafirefly.com/en/documentation/dfcodeinjector/",
+        "issues": "https://github.com/datafirefly-ltd/dfcodeinjector/issues",
+        "source": "https://github.com/datafirefly-ltd/dfcodeinjector"
+    },
+    "require": {
+        "php": ">=7.2"
+    },
+    "config": {
+        "prepend-autoloader": false
+    }
+}

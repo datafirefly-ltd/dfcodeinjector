@@ -1,0 +1,34 @@
+/**
+ * Header/Footer Code Injector - back office
+ *
+ * @author    DataFirefly
+ * @copyright DataFirefly Limited
+ * @license   Commercial
+ */
+
+textarea.dfci-code {
+    min-height: 320px;
+    font-family: SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    font-size: 13px;
+    line-height: 1.55;
+    tab-size: 4;
+    -moz-tab-size: 4;
+    white-space: pre;
+    overflow-wrap: normal;
+    overflow-x: auto;
+    color: #e2e8f0;
+    background: #0f172a;
+    border-color: #1e293b;
+    caret-color: #38bdf8;
+}
+
+textarea.dfci-code:focus {
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.25);
+}
+
+#dfci_pages_chosen {
+    width: 100% !important;
+    max-width: 640px;
+}
+
